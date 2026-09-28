@@ -1,7 +1,7 @@
 window.BICICLETEROS_DATA = {
     "schemaVersion":  3,
     "origen":  "BICICLETERO 2026.xlsx",
-    "actualizado":  "2026-09-27T21:06:28",
+    "actualizado":  "2026-09-28T11:28:39",
     "total":  82,
     "registros":  [
                       {
@@ -12,9 +12,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "1.jpeg",
+                          "imageUrl":  "./images/1.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -25,9 +25,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "2.jpeg",
+                          "imageUrl":  "./images/2.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -38,9 +38,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "3.jpeg",
+                          "imageUrl":  "./images/3.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -51,9 +51,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "4.jpeg",
+                          "imageUrl":  "./images/4.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -64,9 +64,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "5.jpeg",
+                          "imageUrl":  "./images/5.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -77,9 +77,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "6.jpeg",
+                          "imageUrl":  "./images/6.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -90,9 +90,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "7.jpeg",
+                          "imageUrl":  "./images/7.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -103,9 +103,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "8.jpeg",
+                          "imageUrl":  "./images/8.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -116,9 +116,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "9.jpeg",
+                          "imageUrl":  "./images/9.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -129,9 +129,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "10.jpeg",
+                          "imageUrl":  "./images/10.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -142,9 +142,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "11.jpeg",
+                          "imageUrl":  "./images/11.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -155,9 +155,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "12.jpeg",
+                          "imageUrl":  "./images/12.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -168,9 +168,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "13.jpeg",
+                          "imageUrl":  "./images/13.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -181,9 +181,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "14.jpeg",
+                          "imageUrl":  "./images/14.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -194,9 +194,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "15.jpeg",
+                          "imageUrl":  "./images/15.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -207,9 +207,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "16.jpeg",
+                          "imageUrl":  "./images/16.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -220,9 +220,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "17.jpeg",
+                          "imageUrl":  "./images/17.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -233,9 +233,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "18.jpeg",
+                          "imageUrl":  "./images/18.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -246,9 +246,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "19.jpeg",
+                          "imageUrl":  "./images/19.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -259,9 +259,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "20.jpeg",
+                          "imageUrl":  "./images/20.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
@@ -272,9 +272,9 @@ window.BICICLETEROS_DATA = {
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
-                          "imagen":  "bicicleta-default.svg",
-                          "imageUrl":  "./images/bicicleta-default.svg",
-                          "hasPhoto":  false,
+                          "imagen":  "21.jpeg",
+                          "imageUrl":  "./images/21.jpeg",
+                          "hasPhoto":  true,
                           "observacion":  ""
                       },
                       {
