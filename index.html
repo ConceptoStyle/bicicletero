@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang='es'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <meta name='description' content='Panel de control de los espacios de bicicletero de Concepto Style Ñuñoa.'>
+  <title>Control de Bicicleteros · Concepto Style</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class='skip' href='#listado'>Saltar al listado</a>
+  <main class='page'>
+    <header class='hero'>
+      <div class='hero-inner'>
+        <div>
+          <p class='eyebrow'>Administración residencial</p>
+          <h1>Control de Bicicleteros</h1>
+          <p class='intro'>Consulta la ocupación, ubicación y datos de cada espacio del edificio Concepto Style Ñuñoa.</p>
+          <div class='meta'><span id='sourceLabel'>Fuente: cargando datos…</span><span id='updatedLabel'></span></div>
+        </div>
+        <section class='stats' aria-label='Resumen de ocupación'>
+          <article class='stat'><span>Espacios</span><strong id='totalCount'>—</strong></article>
+          <article class='stat occupied'><span>Ocupados</span><strong id='occupiedCount'>—</strong></article>
+          <article class='stat available'><span>Disponibles</span><strong id='availableCount'>—</strong></article>
+          <article class='stat visible'><span>En pantalla</span><strong id='visibleCount'>—</strong></article>
+        </section>
+      </div>
+    </header>
+
+    <section class='toolbar' aria-label='Filtros del listado'>
+      <div class='field search-field'><label for='search'>Buscar</label><input class='control' type='search' id='search' placeholder='N°, residente, dpto., marca, color…' autocomplete='off'></div>
+      <div class='field'><label for='zoneFilter'>Zona</label><select class='control' id='zoneFilter'><option value=''>Todas las zonas</option></select></div>
+      <div class='field'><label for='statusFilter'>Estado</label><select class='control' id='statusFilter'><option value=''>Todos los estados</option><option value='true'>Ocupado</option><option value='false'>Disponible</option></select></div>
+      <div class='field'><label for='sortBy'>Ordenar</label><select class='control' id='sortBy'><option value='space'>Número de espacio</option><option value='zone'>Zona</option><option value='resident'>Residente</option></select></div>
+      <button class='button' type='button' id='clearFilters' disabled>Limpiar filtros</button>
+    </section>
+
+    <div class='results'>
+      <div id='resultSummary' aria-live='polite'>Preparando el listado…</div>
+      <div class='legend' aria-label='Leyenda'><span><i class='dot'></i> Ocupado</span><span><i class='dot free'></i> Disponible</span></div>
+    </div>
+    <div class='notice' id='errorNotice' role='alert' hidden></div>
+    <section class='cards' id='listado' aria-label='Listado de bicicleteros' aria-busy='true'>
+      <div class='state'><div class='spinner' aria-hidden='true'></div><strong>Cargando bicicleteros</strong>Leyendo la información actualizada del Excel.</div>
+    </section>
+  </main>
+
+  <dialog class='viewer' id='imageViewer' aria-labelledby='viewerCaption'>
+    <div class='viewer-shell'>
+      <button class='viewer-close' id='viewerClose' type='button' aria-label='Cerrar imagen'>×</button>
+      <img class='viewer-image' id='viewerImage' alt=''>
+      <p class='viewer-caption' id='viewerCaption'></p>
+    </div>
+  </dialog>
+
+  <!-- Respaldo para abrir con doble clic. Por HTTP, bicicleteros.json tiene prioridad. -->
+  <script src='./bicicleteros-data.js'></script>
+  <script src="./app.js"></script>
+</body>
+</html>
