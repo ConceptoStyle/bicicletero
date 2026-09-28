@@ -1,7 +1,7 @@
 window.BICICLETEROS_DATA = {
     "schemaVersion":  3,
     "origen":  "BICICLETERO 2026.xlsx",
-    "actualizado":  "2026-09-28T14:37:35",
+    "actualizado":  "2026-09-28T14:40:14",
     "total":  82,
     "registros":  [
                       {
@@ -723,7 +723,7 @@ window.BICICLETEROS_DATA = {
                           "id":  "55",
                           "zona":  "PASILLO TORRE A (-1)",
                           "dpto":  "",
-                          "nombre":  "THALIA SANCHEZ",
+                          "nombre":  "",
                           "marca":  "",
                           "color":  "",
                           "estado":  false,
