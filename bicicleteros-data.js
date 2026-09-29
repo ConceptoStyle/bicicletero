@@ -1,7 +1,7 @@
 window.BICICLETEROS_DATA = {
     "schemaVersion":  3,
     "origen":  "BICICLETERO 2026.xlsx",
-    "actualizado":  "2026-09-28T14:40:14",
+    "actualizado":  "2026-09-29T10:01:35",
     "total":  82,
     "registros":  [
                       {
@@ -375,7 +375,7 @@ window.BICICLETEROS_DATA = {
                           "nombre":  "TOMAS ROJAS",
                           "marca":  "FELT",
                           "color":  "ROJO",
-                          "estado":  false,
+                          "estado":  true,
                           "imagen":  "29.jpeg",
                           "imageUrl":  "./images/29.jpeg",
                           "hasPhoto":  true,
