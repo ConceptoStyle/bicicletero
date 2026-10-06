@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Revisa las bicicletas pendientes de identificación de Concepto Style Ñuñoa y solicita su registro con administración.">
+  <title>¿Reconoces tu bicicleta? · Concepto Style</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./por-identificar.css">
+  <script src="./por-identificar-data.js" defer></script>
+  <script src="./por-identificar.js" defer></script>
+</head>
+<body class="identification-page">
+  <a class="skip" href="#galeria">Saltar a las bicicletas</a>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner identification-hero">
+        <div>
+          <p class="eyebrow">Concepto Style Ñuñoa · Residentes</p>
+          <h1>¿Reconoces tu bicicleta?</h1>
+          <p class="intro">Estas bicicletas están pendientes de identificación. Revisa las fotografías y, si una es tuya, solicita su registro con administración.</p>
+          <div class="hero-actions"><a class="button primary-button" href="#galeria">Ver bicicletas</a><button class="button" id="shareGallery" type="button">Compartir galería</button><button class="button" id="printGallery" type="button">Imprimir galería</button></div>
+        </div>
+        <aside class="identification-summary"><strong id="pendingCount">—</strong><span>bicicletas por identificar</span><p>Ayúdanos a mantener actualizado el bicicletero de nuestra comunidad.</p></aside>
+      </div>
+    </header>
+    <ol class="claim-steps" aria-label="Cómo identificar tu bicicleta">
+      <li><b>01</b><div><strong>Encuentra la tuya</strong><span>Amplía la foto y revisa sus detalles.</span></div></li>
+      <li><b>02</b><div><strong>Prepara tu solicitud</strong><span>Indica el código y tus datos de contacto.</span></div></li>
+      <li><b>03</b><div><strong>Valida con administración</strong><span>Presenta antecedentes para completar el registro.</span></div></li>
+    </ol>
+    <section class="gallery-controls" aria-label="Buscar bicicletas">
+      <div class="field"><label for="bikeSearch">Buscar por código, color, marca o detalle</label><input class="control" id="bikeSearch" type="search" placeholder="Ej.: SR-002, roja, canasto…" autocomplete="off"></div>
+      <div class="field"><label for="bikeStatus">Estado</label><select class="control" id="bikeStatus"><option value="">Todos los estados</option><option value="pendiente">Por identificar</option><option value="revision">Solicitud en revisión</option><option value="registrada">Registrada</option></select></div>
+      <button class="button" id="resetGallery" type="button" disabled>Limpiar filtros</button>
+    </section>
+    <div class="results"><p id="gallerySummary" aria-live="polite">Cargando fotografías…</p><span>Selecciona una foto para ampliarla</span></div>
+    <section class="cards identification-cards" id="galeria" aria-label="Bicicletas por identificar" aria-busy="true"></section>
+    <noscript><p class="notice">Activa JavaScript para ver la galería. También puedes consultar las fotografías en conserjería.</p></noscript>
+    <footer class="identification-footer"><strong>¿Necesitas ayuda?</strong><p>Acércate a conserjería con el código de la bicicleta. La solicitud será revisada por administración antes de completar el registro.</p><p>Las descripciones son orientativas y se basan en las fotografías.</p></footer>
+  </main>
+
+  <dialog class="viewer" id="photoViewer" aria-labelledby="photoCaption">
+    <div class="viewer-shell"><button class="viewer-close" id="closePhoto" type="button" aria-label="Cerrar imagen">×</button><img class="viewer-image" id="fullPhoto" alt=""><p class="viewer-caption" id="photoCaption"></p><div class="photo-navigation" id="photoNavigation" hidden><button class="button" id="previousPhoto" type="button">Anterior</button><span id="photoPosition"></span><button class="button" id="nextPhoto" type="button">Siguiente</button></div></div>
+  </dialog>
+
+  <dialog class="claim-dialog" id="claimDialog" aria-labelledby="claimTitle" aria-describedby="claimIntro">
+    <div class="claim-heading"><p class="eyebrow">Solicitud de identificación</p><button class="button" id="closeClaim" type="button" aria-label="Cerrar solicitud">Cerrar</button></div>
+    <h2 id="claimTitle">Esta bicicleta es mía</h2>
+    <p id="claimIntro"></p>
+    <form id="claimForm">
+      <div class="claim-fields">
+        <div class="field"><label for="claimName">Nombre completo</label><input class="control" id="claimName" name="nombre" required maxlength="100" autocomplete="name"></div>
+        <div class="field"><label for="claimApartment">Departamento</label><input class="control" id="claimApartment" name="departamento" required maxlength="20" autocomplete="off"></div>
+        <div class="field full-field"><label for="claimContact">Teléfono o correo de contacto</label><input class="control" id="claimContact" name="contacto" required maxlength="120" autocomplete="off"></div>
+        <div class="field full-field"><label for="claimEvidence">¿Cómo puedes acreditar que es tuya?</label><textarea class="control" id="claimEvidence" name="antecedentes" required minlength="10" maxlength="1000" rows="3" placeholder="Ej.: tengo una fotografía anterior o la llave del candado. Presenta esos antecedentes a administración."></textarea></div>
+      </div>
+      <label class="claim-consent"><input id="claimConsent" type="checkbox" required> Entiendo que administración debe verificar la propiedad antes de completar el registro.</label>
+      <p class="privacy-note">Tus datos no se publican ni se guardan en esta galería. Se usan para preparar el mensaje que tú entregarás a administración.</p>
+      <button class="button primary-button" type="submit">Preparar solicitud</button>
+    </form>
+    <section class="claim-result" id="claimResult" hidden aria-labelledby="resultTitle">
+      <h3 id="resultTitle" tabindex="-1">Solicitud preparada · aún no enviada</h3>
+      <p id="deliveryHelp">Copia el mensaje y envialo al WhatsApp de conserjería.</p>
+      <label for="claimMessage">Mensaje para conserjería</label><textarea class="control" id="claimMessage" readonly rows="9"></textarea>
+      <div class="claim-actions"><button class="button primary-button" id="copyClaim" type="button">Copiar solicitud</button><a class="button whatsapp-button" id="whatsappClaim" target="_blank" rel="noopener noreferrer" hidden>Abrir WhatsApp de conserjería</a></div>
+      <p id="claimFeedback" class="action-feedback" role="status"></p>
+    </section>
+  </dialog>
+
+  <dialog class="claim-dialog share-dialog" id="shareDialog" aria-labelledby="shareTitle">
+    <h2 id="shareTitle">Compartir con residentes</h2><p id="shareHelp"></p>
+    <label for="galleryLink">Enlace de la galería</label><input class="control" id="galleryLink" readonly>
+    <div class="claim-actions"><button class="button primary-button" id="copyGalleryLink" type="button">Copiar enlace</button><button class="button" id="closeShare" type="button">Cerrar</button></div><p id="shareFeedback" role="status"></p>
+  </dialog>
+</body>
+</html>

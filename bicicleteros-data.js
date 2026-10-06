@@ -1,7 +1,7 @@
 window.BICICLETEROS_DATA = {
     "schemaVersion":  3,
     "origen":  "BICICLETERO 2026.xlsx",
-    "actualizado":  "2026-10-01T07:44:50",
+    "actualizado":  "2026-10-05T23:45:02",
     "total":  82,
     "registros":  [
                       {
@@ -15,7 +15,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "1.jpeg",
                           "imageUrl":  "./images/1.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "2",
@@ -28,7 +28,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "2.jpeg",
                           "imageUrl":  "./images/2.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "3",
@@ -41,7 +41,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "3.jpeg",
                           "imageUrl":  "./images/3.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "4",
@@ -54,7 +54,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "4.jpeg",
                           "imageUrl":  "./images/4.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "5",
@@ -67,7 +67,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "5.jpeg",
                           "imageUrl":  "./images/5.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "6",
@@ -80,7 +80,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "6.jpeg",
                           "imageUrl":  "./images/6.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "7",
@@ -93,7 +93,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "7.jpeg",
                           "imageUrl":  "./images/7.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "8",
@@ -106,7 +106,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "8.jpeg",
                           "imageUrl":  "./images/8.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "9",
@@ -119,7 +119,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "9.jpeg",
                           "imageUrl":  "./images/9.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "10",
@@ -132,7 +132,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "10.jpeg",
                           "imageUrl":  "./images/10.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "11",
@@ -145,7 +145,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "11.jpeg",
                           "imageUrl":  "./images/11.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "12",
@@ -158,7 +158,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "12.jpeg",
                           "imageUrl":  "./images/12.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "13",
@@ -171,7 +171,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "13.jpeg",
                           "imageUrl":  "./images/13.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "14",
@@ -184,7 +184,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "14.jpeg",
                           "imageUrl":  "./images/14.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "15",
@@ -197,7 +197,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "15.jpeg",
                           "imageUrl":  "./images/15.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "16",
@@ -210,7 +210,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "16.jpeg",
                           "imageUrl":  "./images/16.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "17",
@@ -223,7 +223,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "17.jpeg",
                           "imageUrl":  "./images/17.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "18",
@@ -236,7 +236,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "18.jpeg",
                           "imageUrl":  "./images/18.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "19",
@@ -249,7 +249,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "19.jpeg",
                           "imageUrl":  "./images/19.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "20",
@@ -262,7 +262,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "20.jpeg",
                           "imageUrl":  "./images/20.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "21",
@@ -275,15 +275,15 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "21.jpeg",
                           "imageUrl":  "./images/21.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  ""
+                          "observacion":  "Espacio para visita"
                       },
                       {
                           "id":  "22",
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "420",
                           "nombre":  "PABLO SILVA",
-                          "marca":  "OXFORD 29",
-                          "color":  "AZUL",
+                          "marca":  "OXFORD",
+                          "color":  "NEGRO",
                           "estado":  true,
                           "imagen":  "22.jpeg",
                           "imageUrl":  "./images/22.jpeg",
@@ -308,7 +308,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "715",
                           "nombre":  "MELISSA GONZALEZ",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "PLATEADA",
                           "estado":  true,
                           "imagen":  "24.jpeg",
@@ -321,7 +321,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "709",
                           "nombre":  "DIEGO PINTO",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "NEGRA",
                           "estado":  true,
                           "imagen":  "25.jpeg",
@@ -386,7 +386,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "406",
                           "nombre":  "NATALIA PERALTA",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "GRIS/VERDE",
                           "estado":  true,
                           "imagen":  "30.jpeg",
@@ -399,7 +399,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "603",
                           "nombre":  "CAROL LABBE",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "GRIS",
                           "estado":  true,
                           "imagen":  "31.jpeg",
@@ -412,7 +412,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "ACCESO PEATONAL",
                           "dpto":  "508",
                           "nombre":  "BENJAMIN RUIZ-TAGLE",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "GRIS",
                           "estado":  true,
                           "imagen":  "32.jpeg",
@@ -529,7 +529,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "PASILLO TORRE A (-1)",
                           "dpto":  "707",
                           "nombre":  "MICHAEL FIGUEROA",
-                          "marca":  "TREEK MARLIN 7",
+                          "marca":  "TREK MARLIN 7",
                           "color":  "AZUL MARINO",
                           "estado":  true,
                           "imagen":  "40.jpeg",
@@ -600,7 +600,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "45.jpeg",
                           "imageUrl":  "./images/45.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  "ESPACIO DE BICICLETERO OCUPADO POR OTRO RESIDENTE."
+                          "observacion":  ""
                       },
                       {
                           "id":  "46",
@@ -646,7 +646,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "PASILLO TORRE A (-1)",
                           "dpto":  "502",
                           "nombre":  "GIANCARLO MUSSATO",
-                          "marca":  "TREEK MARLIN 5",
+                          "marca":  "TREK MARLIN 5",
                           "color":  "PLOMA",
                           "estado":  true,
                           "imagen":  "49.jpeg",
@@ -932,7 +932,7 @@ window.BICICLETEROS_DATA = {
                           "zona":  "PASILLO TORRE A (-1)",
                           "dpto":  "309",
                           "nombre":  "MARCCELO MUÑOZ",
-                          "marca":  "TREEK",
+                          "marca":  "TREK",
                           "color":  "NEGRO DETALE ROJO/AZUL",
                           "estado":  true,
                           "imagen":  "71.jpeg",
@@ -1068,7 +1068,7 @@ window.BICICLETEROS_DATA = {
                           "imagen":  "81.jpeg",
                           "imageUrl":  "./images/81.jpeg",
                           "hasPhoto":  true,
-                          "observacion":  "se mudo"
+                          "observacion":  ""
                       }
                   ]
 };
