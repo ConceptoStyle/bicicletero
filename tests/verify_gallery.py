@@ -26,7 +26,11 @@ try:
         page.on("pageerror", lambda error: errors.append(str(error)))
         page.on("request", lambda request: requests.append(request.url))
         page.goto(base + "/por-identificar.html")
-        assert page.locator("#galeria .card").count() == 8
+        assert page.locator("#galeria .card").count() == 7
+        assert page.locator("#SR-007 .bike-title").inner_text() == "BENOTTO WOLF"
+        assert "7_sreg.jpeg" in page.locator("#SR-007 .bike-photo").get_attribute("src")
+        assert page.locator("#SR-008").count() == 0
+        assert page.get_by_text("NORCO MOUNTAINEER").count() == 0
         assert not any("bicicleteros.json" in url or "bicicleteros-data.js" in url for url in requests)
         for photo in page.locator(".bike-photo").all():
             photo.scroll_into_view_if_needed()
@@ -81,18 +85,18 @@ try:
         assert mobile.locator("#claimDialog").evaluate("el => el.scrollWidth <= el.clientWidth")
         mobile.screenshot(path=str(ARTIFACTS / "mobile-claim.png"))
         page.goto((ROOT / "por-identificar.html").as_uri())
-        assert page.locator("#galeria .card").count() == 8
+        assert page.locator("#galeria .card").count() == 7
         page.goto(base + "/index.html")
         page.wait_for_function("document.querySelector('#listado').getAttribute('aria-busy') === 'false'")
         assert page.locator("#listado .card").count() == len(json.loads((ROOT / "bicicleteros.json").read_text(encoding="utf-8-sig"))["registros"])
         page.get_by_role("link", name="Ver bicicletas por identificar →", exact=True).click()
-        assert page.locator("#galeria .card").count() == 8
+        assert page.locator("#galeria .card").count() == 7
         # La impresión incluye todas las fichas, incluso tras una búsqueda.
         page.get_by_label("Buscar por código, color, marca o detalle").fill("SR-002")
         page.evaluate("window.print = () => { window.printCalled = true; }")
         page.get_by_role("button", name="Imprimir galería", exact=True).click()
         page.wait_for_function("window.printCalled === true")
-        assert page.locator("#galeria .card").count() == 8
+        assert page.locator("#galeria .card").count() == 7
         assert page.locator(".bike-photo").evaluate_all("imgs => imgs.every(img => img.complete && img.naturalWidth > 0)")
         page.emulate_media(media="print")
         page.screenshot(path=str(ARTIFACTS / "print.png"), full_page=True)
@@ -105,7 +109,7 @@ try:
         page.reload()
         assert page.locator('#SR-001 [data-claim]').is_enabled()
         assert page.locator('#SR-002 [data-claim]').is_disabled()
-        assert page.locator('#pendingCount').inner_text() == "7"
+        assert page.locator('#pendingCount').inner_text() == "6"
         page.unroute("**/por-identificar-data.js")
         # Una foto ausente no impide identificar la bicicleta por su código.
         page.route("**/images_sreg/1_sreg.jpeg", lambda route: route.abort())
@@ -117,5 +121,5 @@ try:
         browser.close()
 finally:
     server.shutdown()
-print("PASS: fotos, búsqueda, ampliación, formulario, WhatsApp, privacidad, móvil, apertura local y lista original.")
+print("PASS: fotos, búsqueda, ampliación, formulario, WhatsApp, privacidad, móvil, apertura local y lista actualizada.")
 print(f"Capturas: {ARTIFACTS}")
