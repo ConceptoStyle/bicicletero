@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 129" role="img" aria-labelledby="title desc">
+  <title id="title">Edificio Concepto Style Ñuñoa</title>
+  <desc id="desc">Logotipo tipográfico del edificio Concepto Style Ñuñoa</desc>
+  <g fill="#050505" font-family="Arial, Helvetica, sans-serif">
+    <text x="15" y="37" font-size="24" font-weight="700" letter-spacing="8.5">EDIFICIO</text>
+    <text x="14" y="83" font-size="49" font-weight="300" textLength="424" lengthAdjust="spacingAndGlyphs">CONCEPTO STYLE</text>
+    <text x="237" y="112" font-size="29" font-weight="700" textLength="124" lengthAdjust="spacingAndGlyphs">ÑUÑOA</text>
+  </g>
+</svg>
