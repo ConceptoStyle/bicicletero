@@ -1,7 +1,7 @@
 window.BICICLETEROS_DATA = {
     "schemaVersion":  3,
     "origen":  "BICICLETERO 2026.xlsx",
-    "actualizado":  "2026-10-22T11:18:00",
+    "actualizado":  "2026-11-12T08:03:14",
     "total":  82,
     "registros":  [
                       {
@@ -462,11 +462,11 @@ window.BICICLETEROS_DATA = {
                       {
                           "id":  "35.B",
                           "zona":  "PASILLO TORRE A (-1)",
-                          "dpto":  "",
-                          "nombre":  "",
-                          "marca":  "",
-                          "color":  "",
-                          "estado":  false,
+                          "dpto":  "220",
+                          "nombre":  "NICOLAS ZARATE",
+                          "marca":  "RAM / REBEL",
+                          "color":  "GRIS",
+                          "estado":  true,
                           "imagen":  "35-B.jpeg",
                           "imageUrl":  "./images/35-B.jpeg",
                           "hasPhoto":  true,
